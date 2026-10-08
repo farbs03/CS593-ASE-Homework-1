@@ -1,0 +1,11 @@
+# secrets
+.env
+# python
+__pycache__/
+*.pyc
+.venv/
+# local data (SQLite DB + uploaded PDFs)
+backend/data/
+# node
+node_modules/
+dist/
