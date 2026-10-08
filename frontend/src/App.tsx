@@ -8,7 +8,9 @@ import SearchPage from './pages/SearchPage'
 /** Start each page at the top instead of keeping the previous page's scroll position. */
 function ScrollToTop() {
   const { pathname } = useLocation()
-  useEffect(() => window.scrollTo(0, 0), [pathname])
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [pathname])
   return null
 }
 
